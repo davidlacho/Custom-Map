@@ -28,6 +28,6 @@ A significant portion of the project revolves around the use of interfaces to de
 ## Implementation Details
 
 - **Encapsulation:** Utilizing private modifiers to restrict access to the Google Maps instance, ensuring that it can only be manipulated through the methods provided by the custom map class.
-- **Interfaces:** Defining a `Tappable` interface that specifies the structure objects must adhere to for being added as markers on the map. This includes properties like `location`, `markerContent`, and `color`.
+- **Interfaces:** Defining a `Mappable` interface that specifies the structure objects must adhere to for being added as markers on the map. This includes properties like `location`, and `markerContent`.
 - **Type Safety:** Leveraging TypeScript's type system to enforce strict type checks, ensuring that only objects conforming to the specified interfaces can interact with certain parts of the application.
 - **Code Reusability:** Through interfaces, the application minimizes coupling between classes, enabling a higher degree of code reusability and making the codebase more manageable.
